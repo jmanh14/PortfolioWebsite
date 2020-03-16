@@ -1,0 +1,153 @@
+body {
+    background-image: url("backgroundimage.jpg");
+    text-align: center;
+}
+
+.topnav {
+    background-color: #A2B6C4;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #F9F9F8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.topnav a.active {
+    background-color: #0D1D51;
+    color: #F9F9F8;
+}
+
+.topnav a:hover {
+    color: #7273B0;
+}
+
+th {
+    background-color: #0D1D51;
+    color: #A2B6C4;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+.aLink {
+    color: #0D1D51;
+    
+}
+
+.aLink:hover {
+    color:#7273B0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20%;
+}
+  
+.fa:hover {
+    opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+div {
+    font-family: 'B612', sans-serif;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 grey;
+    max-width: 300px;
+    margin:auto;
+    text-align: center;
+}
+
+.title {
+    color: #0D1D51;
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #3B5998;
+    background-color: #0D1D51;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+button:hover {
+    opacity: 0.7;;
+}
+
+tr:nth-child(even) {
+    background-color: #A2B6C4;
+}
+
+.container {
+    background-image: linear-gradient(to bottom right, #7273B0,#4F8FA3) ;
+    box-shadow: 0 4px 8px 0 grey;
+    margin: auto;
+}
+
+.footer {
+    background-color: #A2B6C4;
+    text-align: center;
+    width: 100%;
+    
+}
+
+.zoom {
+    background-image: url("snapcode.png");
+}
+
+.zoom:hover {
+    transform: scale(1.5);
+}
+
+.pagination {
+    display: inline-block;
+}
+
+.pagination a {
+    color: #0D1D51;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination a.active {
+    background-color: #0D1D51;
+    color: #7273B0;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #A2B6C4;
+}
+
